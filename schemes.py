@@ -1,0 +1,36 @@
+from pydantic import BaseModel
+
+class PredictionInput(BaseModel):
+    Age: int
+    Income: float
+    Bmi: float
+    Blood_pressure: float
+    Cholesterol: float
+    Exercise_hours_per_week: float
+    Alcohol_consumption_per_week: float
+    Family_history_diabetes: int
+    Glucose_level: float
+    Hba1c: float
+    Insulin_resistance: float
+    Heart_disease_history: int
+    Fast_food_intake_per_week: float
+    Processed_food_intake_per_week: float
+    Daily_caloric_intake: float
+    Sleep_hours_per_night: float
+    Medication_use: int
+    Male: int
+    Female: int
+    Asian: int
+    Black: int
+    Hispanic: int
+    Other: int
+    White: int
+    pal_high: int
+    pal_low: int
+    pal_moderate: int
+    sl_high: int
+    sl_low: int
+    sl_moderate: int
+    smk_current: int
+    smk_former: int
+    smk_never: int
